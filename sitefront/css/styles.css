@@ -1,0 +1,32 @@
+.title{
+  text-align: left;
+}
+
+.bottom-head{
+  font-size: 10px;
+}
+
+/* Estilos para o container principal */
+.container {
+  display: flex; /* Ativa o layout flexbox */
+  flex-wrap: wrap; /* Permite que os elementos quebrem em linhas */
+  justify-content: space-between; /* Distribui os elementos com espaço entre eles */
+  margin: 20px; /* Adiciona margem ao container */
+}
+
+/* Estilos para cada imagem */
+.img1 {
+  width: 200px; /* Define a largura das imagens */
+  height: 200px; /* Define a altura das imagens */
+  margin: 10px; /* Adiciona margem entre as imagens */
+}
+
+/* Estilos para a imagem da esquerda */
+.img2 {
+  float: left; /* Posiciona a imagem à esquerda */
+}
+
+/* Estilos para a imagem da direita */
+.img3{
+  float: right; /* Posiciona a imagem à direita */
+}
